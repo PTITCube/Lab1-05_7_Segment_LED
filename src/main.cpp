@@ -1,5 +1,5 @@
 /**
- * VÍ DỤ 1-05: HIỂN THỊ SỐ TRÊN LED 7 ĐOẠN (7-SEGMENT LED DISPLAY)
+ * VÍ DỤ 1-06: HIỂN THỊ SỐ TRÊN LED 7 ĐOẠN (7-SEGMENT LED DISPLAY)
  * 
  * Mô tả:
  * - Điều khiển 7 thanh LED (A, B, C, D, E, F, G) để tạo thành các chữ số 0 - 9.
@@ -52,8 +52,7 @@ void setup() {
         pinMode(SEG_PINS[i], OUTPUT);
     }
 
-    Serial.println("Bắt đầu đếm số từ 0 đến 9...");
-}
+    }
 
 void loop() {
     for (int count = 0; count <= 9; count++) {
